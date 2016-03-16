@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: Hadoop | Hao Zhe Blog Home]]></title>
+  <link href="http://haozhe.site/blog/categories/hadoop/atom.xml" rel="self"/>
+  <link href="http://haozhe.site/"/>
+  <updated>2016-03-16T18:33:23+08:00</updated>
+  <id>http://haozhe.site/</id>
+  <author>
+    <name><![CDATA[HAO MIN]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[hadoope下API操作]]></title>
+    <link href="http://haozhe.site/blog/2016/03/15/hadoop1/"/>
+    <updated>2016-03-15T16:28:42+08:00</updated>
+    <id>http://haozhe.site/blog/2016/03/15/hadoop1</id>
+    <content type="html"><![CDATA[<h4>1.创建Java项目</h4>
+
+<p>File->New->Java Project,命名为TestHDFS</p>
+
+<p>采用单元测试做实验，加入单元测试依赖包，项目导航栏里右键<code>Build Path-&gt;Add Libraries-&gt;JUnit4</code>，以上操作完成如下：</p>
+
+<p><img src="http://s12.sinaimg.cn/mw690/001fstzHgy6EW9Vu5Zheb&amp;690" alt="" /></p>
+
+<h4>2.添加jar包</h4>
+
+<p>引入hadoop相关外部jar包，<code>Build Path-&gt;Add External Archives</code>,jar包包括：
+<code>hadoop/lib/*.jar,hadoop/hadoop-core-1.2.1.jar</code></p>
+
+<p>创建一个java类，TestHDFS.java，继承junit.framework.TestCase,代码开始写：
+<code>
+import java.io.BufferedInputStream;
+import java.io.File;
+import java.io.FileInputStream;
+import java.io.InputStream;
+import java.net.URI;
+import org.apache.hadoop.conf.Configuration;
+import org.apache.hadoop.fs.BlockLocation;
+import org.apache.hadoop.fs.FSDataOutputStream;
+import org.apache.hadoop.fs.FileStatus;
+import org.apache.hadoop.fs.FileSystem;
+import org.apache.hadoop.fs.Path;
+import org.apache.hadoop.io.IOUtils;
+import org.junit.Test;
+import junit.framework.TestCase;
+</code></p>
+
+<h4>3.代码</h4>
+
+<p>3.1创建文件
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+<span class='line-number'>6</span>
+<span class='line-number'>7</span>
+<span class='line-number'>8</span>
+<span class='line-number'>9</span>
+<span class='line-number'>10</span>
+<span class='line-number'>11</span>
+<span class='line-number'>12</span>
+<span class='line-number'>13</span>
+<span class='line-number'>14</span>
+<span class='line-number'>15</span>
+<span class='line-number'>16</span>
+<span class='line-number'>17</span>
+<span class='line-number'>18</span>
+<span class='line-number'>19</span>
+<span class='line-number'>20</span>
+<span class='line-number'>21</span>
+<span class='line-number'>22</span>
+<span class='line-number'>23</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>import junit.framework.TestCase;&lt;/p&gt;
+</span><span class='line'>
+</span><span class='line'>&lt;p&gt;import org.apache.hadoop.conf.Configuration;
+</span><span class='line'>import org.apache.hadoop.fs.FileSystem;
+</span><span class='line'>import org.apache.hadoop.fs.Path;
+</span><span class='line'>import org.junit.Test;&lt;/p&gt;
+</span><span class='line'>
+</span><span class='line'>&lt;p&gt;public class TestHDFS extends TestCase {
+</span><span class='line'>    public static String hdfsUrl =    &ldquo;hdfs://192.168.80.131:9000&rdquo;;
+</span><span class='line'>    //create HDFS folder
+</span><span class='line'>    @Test //单元测试类的一个方法&lt;/p&gt;
+</span><span class='line'>
+</span><span class='line'>&lt;pre&gt;&lt;code&gt;public void testHDFSMkdir() throws IOException{
+</span><span class='line'>    Configuration conf =new Configuration();
+</span><span class='line'>    //导入jar包Configuration类：hadoop的配置信息
+</span><span class='line'>    FileSystem fs = FileSystem.get(URI.create(hdfsUrl), conf );
+</span><span class='line'>    Path path = new Path("/xue");
+</span><span class='line'>    //导入Path包
+</span><span class='line'>    fs.mkdirs(path);
+</span><span class='line'>}
+</span><span class='line'>&lt;/code&gt;&lt;/pre&gt;
+</span><span class='line'>
+</span><span class='line'>&lt;p&gt;}</span></code></pre></td></tr></table></div></figure></p>
+
+<h4>4.单元测试：</h4>
+
+<p><img src="http://s8.sinaimg.cn/mw690/001fstzHgy6EWgXYYZx27&amp;690" alt="" />
+<img src="http://7xrw7v.com1.z0.glb.clouddn.com/QQ%E6%88%AA%E5%9B%BE20160316163930.png" alt="" /></p>
+
+<blockquote><p><a href="(http://blog.sina.com.cn/s/blog_4438ac090101pxnj.html)">参考</a>:<a href="http://blog.sina.com.cn/s/blog_4438ac090101pxnj.html">http://blog.sina.com.cn/s/blog_4438ac090101pxnj.html</a></p></blockquote>
+]]></content>
+  </entry>
+  
+</feed>

@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: 胡言，乱语 | Hao Zhe Blog Home]]></title>
+  <link href="http://haozhe.site/blog/categories/hu-yan-,luan-yu/atom.xml" rel="self"/>
+  <link href="http://haozhe.site/"/>
+  <updated>2016-03-16T18:33:23+08:00</updated>
+  <id>http://haozhe.site/</id>
+  <author>
+    <name><![CDATA[HAO MIN]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[博客写作流程]]></title>
+    <link href="http://haozhe.site/blog/2016/03/15/write/"/>
+    <updated>2016-03-15T16:28:42+08:00</updated>
+    <id>http://haozhe.site/blog/2016/03/15/write</id>
+    <content type="html"><![CDATA[<h6>这是各种bug啊</h6>
+
+<h3>创建文章</h3>
+
+<blockquote><h5>Octopress博文存储在<code>source/_posts</code>目录下，并且需要按照Jekyll的命名规范对文章进行命名：<code>YYYY-MM-DD-post-title.markdown</code>。文章的名字会被当做url的一部分，而其中的日期用于对博文的区分和排序。</h5></blockquote>
+
+<!-- more -->
+
+
+<blockquote><h3>$ rake new_post[&ldquo;title&rdquo;]</h3></blockquote>
+
+<h3>发布</h3>
+
+<blockquote><h5>生成$ rake generate</h5>
+
+<h5>预览$ rake preview</h5>
+
+<h5>备注：由于 rake deploy 上传失败 所以使用git gui的方式。</h5>
+
+<h5>参见<a href="http://jingyan.baidu.com/article/27fa732683ebf546f8271f2e.htmlA">怎么将本地文件上传到github</a></h5></blockquote>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[博客：Markdown入门]]></title>
+    <link href="http://haozhe.site/blog/2016/03/15/haozhe/"/>
+    <updated>2016-03-15T16:28:42+08:00</updated>
+    <id>http://haozhe.site/blog/2016/03/15/haozhe</id>
+    <content type="html"><![CDATA[<h6>搞博客主题两天下来差点出现强迫症。。</h6>
+
+<h6>为了入门markdown顺便写下自己的第一篇博客。</h6>
+
+<h2>Markdown 新手指南</h2>
+
+<h3>1.标题</h3>
+
+<!-- more -->
+
+
+<p><img src="http://ww1.sinaimg.cn/large/6aee7dbbgw1effeaclhiyj20eh09cwez.jpg" alt="" /></p>
+
+<h6>建议在井号后加一个空格，这是最标准的 Markdown 语法</h6>
+
+<h3>2.列表</h3>
+
+<h6>在 Markdown 下，列表的显示只需要在文字前加上 - 或 * 即可变为无序列表，有序列表则直接在文字前加1. 2. 3. 符号要和文字之间加上一个字符的空格。</h6>
+
+<ul>
+<li>1</li>
+<li>2</li>
+<li>3
+<img src="http://ww4.sinaimg.cn/large/6aee7dbbgw1effew5aftij20d80bz3yw.jpg" alt="" /></li>
+</ul>
+
+
+<h3>3.引用</h3>
+
+<h6>如果你需要引用一小段别处的句子，那么就要用引用的格式。</h6>
+
+<blockquote><h3>窗前明月光 疑是地上霜</h3>
+
+<p>文本前加入 > 号
+<img src="http://ww3.sinaimg.cn/large/6aee7dbbgw1effezhonxlj20e009c3yu.jpg" alt="" /></p></blockquote>
+
+<h3>4.图片和链接</h3>
+
+<p><img src="http://ww2.sinaimg.cn/large/6aee7dbbgw1efffa67voyj20ix0ctq3n.jpg" alt="" /></p>
+
+<h6>如这里参照的文档是：</h6>
+
+<h4><a href="http://www.jianshu.com/p/1e402922ee32">Markdown——入门指南</a></h4>
+
+<h3>5.粗体斜体</h3>
+
+<p>Markdown 的粗体和斜体也非常简单，用两个 * 包含一段文本就是粗体的语法，用一个 * 包含一段文本就是斜体的语法。</p>
+
+<p><strong>粗体</strong>
+<em>斜体</em></p>
+
+<p><img src="http://7xrw7v.com1.z0.glb.clouddn.com/QQ%E6%88%AA%E5%9B%BE20160315173025.png" alt="" /></p>
+
+<h3>6.标量</h3>
+
+<h1><code>这里是标量</code></h1>
+
+<h2>用法是文字两边加入~下的符号 `</h2>
+
+<h3>7.添加代码</h3>
+
+<p><img src="http://7xrw7v.com1.z0.glb.clouddn.com/QQ%E6%88%AA%E5%9B%BE20160315180653.png" alt="" /></p>
+
+<h6>代码高亮：</h6>
+
+<p><img src="http://7xrw7v.com1.z0.glb.clouddn.com/QQ%E6%88%AA%E5%9B%BE20160315180859.png" alt="" /></p>
+
+<p><img src="http://7xrw7v.com1.z0.glb.clouddn.com/QQ%E6%88%AA%E5%9B%BE20160315180931.png" alt="" /></p>
+]]></content>
+  </entry>
+  
+</feed>
