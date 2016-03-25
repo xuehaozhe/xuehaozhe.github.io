@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: Linux | Hao Zhe Blog Home]]></title>
+  <link href="http://haozhe.site/blog/categories/linux/atom.xml" rel="self"/>
+  <link href="http://haozhe.site/"/>
+  <updated>2016-03-25T19:47:18+08:00</updated>
+  <id>http://haozhe.site/</id>
+  <author>
+    <name><![CDATA[HAO MIN]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Linux常用命令串讲]]></title>
+    <link href="http://haozhe.site/blog/2016/03/25/linux/"/>
+    <updated>2016-03-25T19:42:36+08:00</updated>
+    <id>http://haozhe.site/blog/2016/03/25/linux</id>
+    <content type="html"><![CDATA[<h3>linux 系统命令串讲</h3>
+
+<h4>1、目录初识</h4>
+
+<p><img src="http://7xrw7v.com1.z0.glb.clouddn.com/QQ%E6%88%AA%E5%9B%BE20160324215021.png" alt="" /></p>
+
+<h4>2、终端常用快捷键</h4>
+
+<blockquote><p>清屏:   Ctrl+L
+复制：Ctrl+Shift+C   粘贴：Ctrl+Shift+V
+<img src="http://7xrw7v.com1.z0.glb.clouddn.com/QQ%E6%88%AA%E5%9B%BE20160324215923.png" alt="" /></p></blockquote>
+
+<h4>3、文件目录操作</h4>
+
+<!-- more -->
+
+
+<p><img src="http://7xrw7v.com1.z0.glb.clouddn.com/QQ%E6%88%AA%E5%9B%BE20160324223030.png" alt="" /></p>
+
+<p><img src="http://7xrw7v.com1.z0.glb.clouddn.com/QQ%E6%88%AA%E5%9B%BE20160324224108.png" alt="" /></p>
+
+<h4>4、用户和用户组</h4>
+
+<p><img src="http://7xrw7v.com1.z0.glb.clouddn.com/QQ%E6%88%AA%E5%9B%BE20160324224543.png" alt="" /></p>
+
+<h4>5、用户权限</h4>
+
+<p><img src="http://7xrw7v.com1.z0.glb.clouddn.com/QQ%E6%88%AA%E5%9B%BE20160324230855.png" alt="" /></p>
+
+<h4>6、系统管理命令</h4>
+
+<p><img src="http://7xrw7v.com1.z0.glb.clouddn.com/1.png" alt="" /></p>
+
+<h4>7、VIM编辑器命令</h4>
+
+<p><img src="http://7xrw7v.com1.z0.glb.clouddn.com/QQ%E6%88%AA%E5%9B%BE20160325133234.png" alt="" /></p>
+
+<p><img src="http://7xrw7v.com1.z0.glb.clouddn.com/QQ%E6%88%AA%E5%9B%BE20160325133709.png" alt="" /></p>
+
+<p><img src="http://7xrw7v.com1.z0.glb.clouddn.com/QQ%E6%88%AA%E5%9B%BE20160325133928.png" alt="" /></p>
+
+<h4>8、解压、压缩</h4>
+
+<p><img src="http://7xrw7v.com1.z0.glb.clouddn.com/QQ%E6%88%AA%E5%9B%BE20160325192653.png" alt="" /></p>
+]]></content>
+  </entry>
+  
+</feed>

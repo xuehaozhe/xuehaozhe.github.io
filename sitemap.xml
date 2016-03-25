@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
+<loc>http://haozhe.site/blog/2016/03/25/linux/</loc>
+<lastmod>2016-03-25T19:42:36+08:00</lastmod>
+</url>
+<url>
 <loc>http://haozhe.site/blog/2016/03/15/write/</loc>
 <lastmod>2016-03-15T16:28:42+08:00</lastmod>
 </url>
@@ -23,5 +27,8 @@
 </url>
 <url>
 <loc>http://haozhe.site/blog/categories/hu-yan-,luan-yu/</loc>
+</url>
+<url>
+<loc>http://haozhe.site/blog/categories/linux/</loc>
 </url>
 </urlset>
